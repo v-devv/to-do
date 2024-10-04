@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    box-sizing: border-box;
+
+} */
+body>h1{
+    text-align: center;
+    margin: 4rem;
+    border-bottom: 0.15rem solid gray;
+    padding-bottom: 1rem;
+    font-family: "Afacad Flux", sans-serif;
+}
+.Container{
+    width: 40rem;
+    height: 15rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid gray;
+    border-radius: 8px;
+   
+
+}
+
+input{
+    width:70%;
+    height: 2rem;
+    padding-left:1rem ;
+    border: 0.1rem solid gray;
+    border-radius: 8px;
+    outline: none;
+}
+.add{
+    width: 8rem;
+    padding: 12px;
+    border-radius: 8px;
+    border: 0.2rem;
+    color: aliceblue;
+    background: rgba(24, 160, 251, 1);
+    cursor: pointer;
+}
+.head{
+    font-family: "Playwrite DE Grund", cursive;
+}
+.input-text{
+    font-family: "Afacad Flux", sans-serif;
+}
+.add{
+    font-family:serif;
+}
+
+.divison{
+
+    width: 55%;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(254, 254, 254);
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(252, 252, 252);
+}
+ol{    
+    font-family: "Gloria Hallelujah", cursive;
+}
+.buttondiv{
+    display: flex;
+    gap: 1rem;
+}
+.buttondiv > *{
+    padding:0.5rem 1rem;
+    border: 0.5px solid rgb(235, 232, 232);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.delete{
+    background-color: rgb(225, 70, 70);
+    color: white;
+}
